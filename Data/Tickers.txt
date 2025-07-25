@@ -1,0 +1,15 @@
+###  STOOQ
+
+https://stooq.pl/q/?s=etfbndxpl.pl #NASDAQ
+https://stooq.pl/q/d/?s=etfbw20lv.pl #WIG20
+https://stooq.pl/q/d/?s=etfsp500.pl #SP500
+https://stooq.pl/q/d/?s=etfbspxpl.pl #SPX
+https://stooq.pl/q/?s=etfdax.pl #DAX
+
+### YFINANCE
+
+AAPL #APPLE
+NVDA #NVDIA
+TSLA #TSLA
+BRK-B #BRK-B
+MSFT #MSFT
