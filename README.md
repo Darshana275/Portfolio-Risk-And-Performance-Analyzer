@@ -23,42 +23,43 @@ The **Portfolio Risk & Performance Analyzer** is a Python-based tool for evaluat
 
 ## 📐 Mathematical Formulas for Metrics
 
+
 - **Mean Log Return:**
-  $$
+  ```math
   r_t = \ln\left( \frac{P_t}{P_{t-1}} \right), \quad
   \bar{r} = \frac{1}{n} \sum_{t=1}^{n} r_t
-  $$
+  ```
 
 - **Standard Deviation:**
-  $$
+  ```math
   \sigma = \sqrt{ \frac{1}{n-1} \sum_{t=1}^{n} (r_t - \bar{r})^2 }, \quad
   \sigma_{\text{annual}} = \sigma_{\text{daily}} \times \sqrt{k}
-  $$
+  ```
 
 - **Value at Risk (VaR):**
-  $$
+  ```math
   \text{VaR}_{\alpha} = \text{Quantile}_{(1-\alpha)}(r_t)
-  $$
+  ```
 
 - **Expected Shortfall (ES):**
-  $$
+  ```math
   \text{ES}_{\alpha} = \mathbb{E}[ r_t \;|\; r_t \leq \text{VaR}_{\alpha} ]
-  $$
+  ```
 
 - **Compound Annual Growth Rate (CAGR):**
-  $$
+  ```math
   \text{CAGR} = \left( \frac{P_n}{P_0} \right)^{\frac{1}{T}} - 1
-  $$
+  ```
 
 - **Maximum Drawdown (MDD):**
-  $$
+  ```math
   \text{MDD} = \min_{t} \left( \frac{P_t}{\max_{s \le t} P_s} - 1 \right)
-  $$
+  ```
 
 - **Calmar Ratio:**
-  $$
+  ```math
   \text{Calmar Ratio} = \frac{\text{CAGR}}{\left|\text{Max Drawdown}\right|}
-  $$
+  ```
 
 ---
 
