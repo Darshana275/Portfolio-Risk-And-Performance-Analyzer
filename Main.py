@@ -3,8 +3,10 @@ from Models.Download_Stooq import download_stooq
 from Models.Download_Yahoo import download_yahoo
 from Models.Portfolio_analysis import analyze_log_return_statistics
 from Models.Export_excel import export_statistics_to_excel
+from Models.Visualizations import plot_statistics
 
 import pandas as pd
+import numpy as np
 
 def main():
 
@@ -42,6 +44,10 @@ def main():
 
     # 3. Export to Excel with all intervals as separate sheets
     export_statistics_to_excel(stats_dicts)
+
+    plot_statistics(stats_dicts, asset_data, save_folder="graphs")
+
+
 
 # Run the function
 main()
